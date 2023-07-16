@@ -1,0 +1,31 @@
+{
+  "name": "nodejs-blog-graphql-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Millz147/nodejs-blog-graphql-typescript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Millz147/nodejs-blog-graphql-typescript/issues"
+  },
+  "homepage": "https://github.com/Millz147/nodejs-blog-graphql-typescript#readme",
+  "dependencies": {
+    "@types/express": "^4.17.17",
+    "@types/node": "^20.4.2",
+    "apollo-server-core": "^3.12.0",
+    "apollo-server-express": "^3.12.0",
+    "express": "^4.18.2",
+    "graphql": "^16.7.1",
+    "nodemon": "^3.0.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.6"
+  }
+}
