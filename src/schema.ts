@@ -6,9 +6,12 @@ const Schema = gql`
     title: String
     content: String
   }
-  type Query{
+  type Query {
     getAllPosts: [Posts] #will return multiple Posts instances
     getPost(id: Int): Posts #has an argument of id of type Integer.
+  }
+  type Mutation {
+    addPost(author: String,title: String, content: String): Posts
   }
 `;
 export default Schema;
